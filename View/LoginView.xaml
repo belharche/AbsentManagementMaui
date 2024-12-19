@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbsentManagement.View.LoginView"
+             Title="LoginView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Image Source="login_bg.png" Aspect="AspectFill" />
+
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Welcome" FontSize="34" FontAttributes="Bold" TextColor="White" />
+                <Label Text="Sign in to continue" FontSize="16" TextColor="White" />
+            </VerticalStackLayout>
+        </Grid>
+
+        <VerticalStackLayout Grid.Row="1" Spacing="30" Padding="45">
+            <Entry Placeholder="Email address" Keyboard="Email" Text="{Binding Email}" />
+            <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}" />
+
+            <Button Command="{Binding LoginCommand}" Text="Login" BackgroundColor="#1E88E5" TextColor="White" />
+
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label Text="If you don't have an account, click to register"
+                       TextColor="#1E88E5"
+                       TextDecorations="Underline"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
