@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\brahim\Desktop\Maui Project\AbsentManagement\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-19T20:57:32.875</Modified>
+      <Modified>2024-12-31T01:40:52.081</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\brahim\Desktop\Maui Project\AbsentManagement\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-19T20:55:01.988</Modified>
+      <Modified>2024-12-31T01:31:56.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\Desktop\Maui Project\AbsentManagement\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AbsentManagement.runtimeconfig.json">
       <PackagePath>AbsentManagement.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-19T17:04:53.699</Modified>
+      <Modified>2024-12-31T01:31:55.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\Desktop\Maui Project\AbsentManagement\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AbsentManagement.dll">
       <PackagePath>AbsentManagement.dll</PackagePath>
-      <Modified>2024-12-19T20:57:32.085</Modified>
+      <Modified>2024-12-31T01:40:51.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\Desktop\Maui Project\AbsentManagement\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AbsentManagement.exe</PackagePath>
-      <Modified>2024-12-19T20:57:32.098</Modified>
+      <Modified>2024-12-31T01:40:51.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\Desktop\Maui Project\AbsentManagement\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -295,7 +295,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\Desktop\Maui Project\AbsentManagement\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AbsentManagement.deps.json">
       <PackagePath>AbsentManagement.deps.json</PackagePath>
-      <Modified>2024-12-19T17:04:53.371</Modified>
+      <Modified>2024-12-31T01:31:54.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.53\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -305,6 +305,14 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-10-14T22:26:14.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\firebase.auth\1.0.0\lib\netstandard1.1\Firebase.Auth.dll">
+      <PackagePath>Firebase.Auth.dll</PackagePath>
+      <Modified>2017-04-06T08:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\firebase.database\1.0.0\lib\portable45-net45+win8+wpa81\Firebase.Database.dll">
+      <PackagePath>Firebase.Database.dll</PackagePath>
+      <Modified>2017-01-07T15:27:00.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2023-10-31T14:59:20.000</Modified>
@@ -313,13 +321,13 @@
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
       <Modified>2023-10-31T14:59:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.1\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.extensions.dependencyinjection\9.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
-      <Modified>2024-09-16T23:09:36.000</Modified>
+      <Modified>2024-10-29T02:42:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\9.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
-      <Modified>2024-09-16T23:09:34.000</Modified>
+      <Modified>2024-10-29T02:41:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.extensions.logging\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
@@ -376,6 +384,10 @@
     <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
       <Modified>2024-10-29T22:33:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.1\lib\netstandard1.0\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2016-06-13T21:51:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
@@ -436,6 +448,42 @@
     <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-06-26T19:15:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\newtonsoft.json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T23:06:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\rx-core\2.2.5\lib\net45\System.Reactive.Core.dll">
+      <PackagePath>System.Reactive.Core.dll</PackagePath>
+      <Modified>2014-07-22T15:49:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\rx-interfaces\2.2.5\lib\net45\System.Reactive.Interfaces.dll">
+      <PackagePath>System.Reactive.Interfaces.dll</PackagePath>
+      <Modified>2014-07-22T15:49:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\rx-linq\2.2.5\lib\net45\System.Reactive.Linq.dll">
+      <PackagePath>System.Reactive.Linq.dll</PackagePath>
+      <Modified>2014-07-22T15:49:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\rx-platformservices\2.2.5\lib\net45\System.Reactive.PlatformServices.dll">
+      <PackagePath>System.Reactive.PlatformServices.dll</PackagePath>
+      <Modified>2014-07-22T15:49:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2024-03-27T22:22:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\sqlitepclraw.bundle_green\2.1.10\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2024-09-11T20:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\sqlitepclraw.core\2.1.10\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2024-09-11T20:12:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.10\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2024-09-11T20:12:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.maui.controls.core\8.0.83\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -580,6 +628,30 @@
     <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\runtime.win7-x64.microsoft.netcore.runtime.coreclr\1.0.2\runtimes\win7-x64\native\System.Private.CoreLib.ni.dll">
+      <PackagePath>System.Private.CoreLib.ni.dll</PackagePath>
+      <Modified>2016-06-13T18:26:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\runtime.win7-x64.microsoft.netcore.runtime.coreclr\1.0.2\runtimes\win7-x64\native\dbgshim.dll">
+      <PackagePath>dbgshim.dll</PackagePath>
+      <Modified>2016-06-13T18:26:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\runtime.win7-x64.microsoft.netcore.runtime.coreclr\1.0.2\runtimes\win7-x64\native\mscorlib.ni.dll">
+      <PackagePath>mscorlib.ni.dll</PackagePath>
+      <Modified>2016-06-13T18:26:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\runtime.win7-x64.microsoft.netcore.runtime.coreclr\1.0.2\runtimes\win7-x64\native\mscorrc.debug.dll">
+      <PackagePath>mscorrc.debug.dll</PackagePath>
+      <Modified>2016-06-13T18:26:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\runtime.win7-x64.microsoft.netcore.runtime.coreclr\1.0.2\runtimes\win7-x64\native\sos.dll">
+      <PackagePath>sos.dll</PackagePath>
+      <Modified>2016-06-13T18:26:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.10\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2024-09-11T20:05:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brahim\.nuget\packages\microsoft.maui.controls.compatibility\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

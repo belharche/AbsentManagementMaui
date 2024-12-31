@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using AbsentManagement.Database;
+using AbsentManagement.View;
+using AbsentManagement.ViewModel;
+using Microsoft.Extensions.Logging;
 
 namespace AbsentManagement
 {
@@ -15,11 +18,15 @@ namespace AbsentManagement
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
+            builder.Services.AddSingleton<DbService>();
+            builder.Services.AddTransient<LoginViewModel>();
+            builder.Services.AddTransient<LoginView>();
+            builder.Services.AddTransient<SplashView>();
 
-            return builder.Build();
+            var app = builder.Build();
+
+            return app;
         }
+
     }
 }

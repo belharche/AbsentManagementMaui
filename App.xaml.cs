@@ -1,21 +1,23 @@
-﻿namespace AbsentManagement
+﻿using AbsentManagement.View;
+using Microsoft.Maui.Controls;
+
+namespace AbsentManagement
 {
     public partial class App : Application
     {
-        public App()
+        public App(SplashView splashView, IServiceProvider serviceProvider)
         {
             InitializeComponent();
 
-            //MainPage = new AppShell();
-
-            MainPage = new View.SplashView();
+            MainPage = splashView;
 
             Task.Run(async () =>
             {
                 await Task.Delay(3000);
                 MainThread.BeginInvokeOnMainThread(() =>
                 {
-                    MainPage = new NavigationPage(new View.LoginView());
+                    // Resolve LoginView from the DI container
+                    MainPage = new NavigationPage(serviceProvider.GetRequiredService<LoginView>());
                 });
             });
         }

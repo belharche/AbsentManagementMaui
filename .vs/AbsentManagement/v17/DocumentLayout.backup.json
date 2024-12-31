@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\database\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:database\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\view\\splashview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\splashview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
               "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:10:13.336Z",
+              "WhenOpened": "2024-12-31T01:24:26.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\View\\LoginView.xaml",
-              "RelativeDocumentMoniker": "View\\LoginView.xaml",
-              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\View\\LoginView.xaml",
-              "RelativeToolTip": "View\\LoginView.xaml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-19T17:00:59.077Z",
+              "WhenOpened": "2024-12-31T01:23:15.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "SplashView.xaml",
               "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\View\\SplashView.xaml",
               "RelativeDocumentMoniker": "View\\SplashView.xaml",
               "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\View\\SplashView.xaml",
               "RelativeToolTip": "View\\SplashView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-19T17:00:22.016Z",
+              "WhenOpened": "2024-12-31T01:21:12.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T01:18:45.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbService.cs",
+              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\Database\\DbService.cs",
+              "RelativeDocumentMoniker": "Database\\DbService.cs",
+              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\Database\\DbService.cs",
+              "RelativeToolTip": "Database\\DbService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T01:14:25.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowEEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T01:10:28.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\View\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\View\\LoginView.xaml.cs",
+              "RelativeToolTip": "View\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T01:06:47.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "View\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\View\\LoginView.xaml",
+              "RelativeToolTip": "View\\LoginView.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBgAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-31T01:06:28.949Z",
               "EditorCaption": ""
             }
           ]

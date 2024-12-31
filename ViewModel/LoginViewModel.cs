@@ -1,26 +1,82 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Windows.Input;
 using System.Threading.Tasks;
+using AbsentManagement.Database;
+using AbsentManagement.Model;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace AbsentManagement.ViewModel
 {
-    public class LoginViewModel
+    public class LoginViewModel : INotifyPropertyChanged
     {
-        public String Email { get; set; }
-        public String Password { get; set; }
+        private readonly DbService _dbService;
+        private string _email;
+        private string _password;
+        private string _errorMessage;
 
-        public Command LoginCommand { get; }
-
-        public LoginViewModel()
+        public string Email
         {
-            LoginCommand = new Command(HandleLogin);
+            get => _email;
+            set { _email = value; OnPropertyChanged(); }
         }
 
-        private async void HandleLogin()
+        public string Password
         {
-            await Application.Current.MainPage.DisplayAlert("Error", "Login in not implemented yet", "OK");
+            get => _password;
+            set { _password = value; OnPropertyChanged(); }
+        }
+
+        public string ErrorMessage
+        {
+            get => _errorMessage;
+            set { _errorMessage = value; OnPropertyChanged(); }
+        }
+
+        public ICommand LoginCommand { get; }
+
+        public LoginViewModel(DbService dbService)
+        {
+            _dbService = dbService;
+            LoginCommand = new Command(async () => await LoginAsync());
+        }
+
+        private async Task LoginAsync()
+        {
+            ErrorMessage = string.Empty;
+
+            // Validate inputs
+            if (string.IsNullOrWhiteSpace(Email) || string.IsNullOrWhiteSpace(Password))
+            {
+                ErrorMessage = "Email and password cannot be empty.";
+                return;
+            }
+
+            try
+            {
+                // Check if the user exists in the database
+                var user = await _dbService.GetUsers()
+                    .ContinueWith(task => task.Result.FirstOrDefault(u => u.Email == Email && u.Password == Password));
+
+                if (user == null)
+                {
+                    ErrorMessage = "Invalid email or password.";
+                }
+                else
+                {
+                    ErrorMessage = "Authenticated Successfully";
+                }
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = "An error occurred during login. Please try again.";
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
