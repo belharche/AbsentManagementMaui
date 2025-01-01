@@ -16,7 +16,6 @@ namespace AbsentManagement
                 await Task.Delay(3000);
                 MainThread.BeginInvokeOnMainThread(() =>
                 {
-                    // Resolve LoginView from the DI container
                     MainPage = new NavigationPage(serviceProvider.GetRequiredService<LoginView>());
                 });
             });

@@ -5,6 +5,7 @@ using AbsentManagement.Model;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
+
 namespace AbsentManagement.ViewModel
 {
     public class LoginViewModel : INotifyPropertyChanged
@@ -37,10 +38,10 @@ namespace AbsentManagement.ViewModel
         public LoginViewModel(DbService dbService)
         {
             _dbService = dbService;
-            LoginCommand = new Command(async () => await LoginAsync());
+            LoginCommand = new Command(async () => await LoginHandler());
         }
 
-        private async Task LoginAsync()
+        private async Task LoginHandler()
         {
             ErrorMessage = string.Empty;
 
@@ -63,10 +64,18 @@ namespace AbsentManagement.ViewModel
                 }
                 else
                 {
-                    ErrorMessage = "Authenticated Successfully";
+                    try
+                    {
+                        // This part of navigation contains an error (TO BE FIXED)
+                        await Shell.Current.GoToAsync("HomeView");
+                    }
+                    catch (Exception ex)
+                    {
+                        ErrorMessage = "An error Occurred while navigation";
+                    }
                 }
             }
-            catch (Exception ex)
+            catch (Exception _)
             {
                 ErrorMessage = "An error occurred during login. Please try again.";
             }

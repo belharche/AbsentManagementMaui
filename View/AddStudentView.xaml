@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbsentManagement.View.AddStudentView">
+    <VerticalStackLayout Padding="20">
+
+        <!-- Title/Heading -->
+        <Label Text="Add New Student"
+               FontSize="24"
+               FontAttributes="Bold"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
+
+        <!-- First Name -->
+        <Entry x:Name="FirstameEntry"
+               Placeholder="First Name"
+               Text="{Binding Firstame}" />
+
+        <!-- Last Name -->
+        <Entry x:Name="LastameEntry"
+               Placeholder="Last Name"
+               Text="{Binding Lastame}" />
+
+        <!-- Email -->
+        <Entry x:Name="EmailEntry"
+               Placeholder="Email"
+               Keyboard="Email"
+               Text="{Binding Email}" />
+
+        <!-- Phone -->
+        <Entry x:Name="PhoneEntry"
+               Placeholder="Phone"
+               Keyboard="Telephone"
+               Text="{Binding Phone}" />
+
+        <!-- Field of Study (Picker) -->
+        <Picker x:Name="FieldPicker" 
+                Title="Select Field"
+                SelectedItem="{Binding SelectedField}"
+                ItemsSource="{Binding Fields}"
+                ItemDisplayBinding="{Binding Name}">
+        </Picker>
+
+        <!-- Gender Selection (Radio Buttons) -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label Text="Gender" VerticalOptions="Center" />
+            <RadioButton GroupName="Gender" 
+                         Content="Male" 
+                         IsChecked="{Binding Gender, Mode=TwoWay}" 
+                         Value="Male" />
+            <RadioButton GroupName="Gender" 
+                         Content="Female" 
+                         IsChecked="{Binding Gender, Mode=TwoWay}" 
+                         Value="Female" />
+        </StackLayout>
+
+        <!-- Error Message -->
+        <Label Text="{Binding ErrorMsg}" 
+               TextColor="Red" 
+               IsVisible="{Binding IsErrorVisible}" 
+               HorizontalOptions="Center" />
+
+        <!-- Add Student Button -->
+        <Button Text="Add Student"
+                Command="{Binding AddStudentCommand}"
+                HorizontalOptions="Center" 
+                VerticalOptions="End" />
+    </VerticalStackLayout>
+</ContentView>
