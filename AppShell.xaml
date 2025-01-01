@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Shell
     x:Class="AbsentManagement.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -7,9 +7,27 @@
     Shell.FlyoutBehavior="Disabled"
     Title="AbsentManagement">
 
+    <!-- Main Page -->
     <ShellContent
-        Title="Home"
+        Title="Main Page"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+    <!-- Home Page -->
+    <ShellContent
+        Title="Home Page"
+        ContentTemplate="{DataTemplate local:View.HomeView}"
+        Route="HomeView" />
+
+    <!-- Add Student Page -->
+    <ShellContent
+        Title="Add Student"
+        ContentTemplate="{DataTemplate local:View.AddStudentView}"
+        Route="AddStudentView" />
+
+    <ShellContent
+        Title="Test"
+        ContentTemplate="{DataTemplate local:TestView}"
+        Route="TestView" />
 
 </Shell>

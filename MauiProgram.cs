@@ -22,6 +22,8 @@ namespace AbsentManagement
             builder.Services.AddTransient<LoginViewModel>();
             builder.Services.AddTransient<LoginView>();
             builder.Services.AddTransient<SplashView>();
+            builder.Services.AddTransient<RegisterViewModel>();
+            builder.Services.AddTransient<RegisterView>();
 
             var app = builder.Build();
 

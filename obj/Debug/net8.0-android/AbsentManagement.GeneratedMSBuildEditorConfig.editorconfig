@@ -46,11 +46,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.Resources
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/TestView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.TestView.xaml
+build_metadata.AdditionalFiles.TargetPath = TestView.xaml
+build_metadata.AdditionalFiles.RelativePath = TestView.xaml
+
+[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/AddStudentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.View.AddStudentView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddStudentView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddStudentView.xaml
+
+[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/HomeView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.View.HomeView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\HomeView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\HomeView.xaml
+
 [C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/LoginView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.View.LoginView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\LoginView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\LoginView.xaml
+
+[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/RegisterView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.View.RegisterView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RegisterView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RegisterView.xaml
 
 [C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/SplashView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
