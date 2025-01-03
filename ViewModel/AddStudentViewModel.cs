@@ -104,8 +104,8 @@ namespace AbsentManagement.ViewModel
             // Create new Student
             var student = new Student
             {
-                Firstame = Firstame,
-                Lastame = Lastame,
+                Firstname = Firstame,
+                Lastname = Lastame,
                 Email = Email,
                 Phone = Phone,
                 Gender = Gender,

@@ -10,17 +10,17 @@ using System.Windows.Input;
 namespace AbsentManagement.Model
 {
 
-    [Table("students")]
+   
     public class Student
     {
-        [PrimaryKey, AutoIncrement]
-        public string Id { get; set; }
-        public string Firstame { get; set; }
-        public string Lastame { get; set; }
+        [PrimaryKey]
+        public string Id { get; set; } // l'id de l'élève represente le cne ici 
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
         public string Gender { get; set; }
-        // Foreign Key
-        public int FieldId { get; set; }
+        
+        public int FieldId { get; set; }    
     }
 }

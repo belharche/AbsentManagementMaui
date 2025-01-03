@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AbsentManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+058f064286e8080a465118053da456bd76ea8933")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+db66afa09207b28fc29491d7f40b43c44b201727")]
 [assembly: System.Reflection.AssemblyProductAttribute("AbsentManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AbsentManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

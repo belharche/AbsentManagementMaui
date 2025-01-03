@@ -22,8 +22,10 @@ namespace AbsentManagement.Database
             _connection.CreateTableAsync<User>();
             _connection.CreateTableAsync<Student>();
             _connection.CreateTableAsync<Field>();
+            _connection.CreateTableAsync<Lesson>();
+            _connection.CreateTableAsync<Absence>();
 
-            //  Default User
+            // Default User
             Task.Run(async () =>
             {
                 try
@@ -40,7 +42,7 @@ namespace AbsentManagement.Database
                 }
                 catch (Exception ex)
                 {
-                    
+                    // Log exception if necessary
                 }
             }).Wait();
         }
@@ -56,7 +58,6 @@ namespace AbsentManagement.Database
 
         public Task<int> DeleteUser(User user) => _connection.DeleteAsync(user);
 
-
         // Student CRUD operations
         public async Task<List<Student>> GetStudents() => await _connection.Table<Student>().ToListAsync();
 
@@ -68,8 +69,6 @@ namespace AbsentManagement.Database
         public Task<int> UpdateStudent(Student student) => _connection.UpdateAsync(student);
 
         public Task<int> DeleteStudent(Student student) => _connection.DeleteAsync(student);
-
-
 
         // Field CRUD operations
         public async Task<int> InsertField(Field field)
@@ -92,5 +91,28 @@ namespace AbsentManagement.Database
 
         public async Task<List<Field>> GetFields() => await _connection.Table<Field>().ToListAsync();
 
+        // Lesson CRUD operations
+        public async Task<List<Lesson>> GetLessons() => await _connection.Table<Lesson>().ToListAsync();
+
+        public async Task<Lesson> GetLessonById(int lessonId) =>
+            await _connection.Table<Lesson>().Where(lesson => lesson.Id == lessonId).FirstOrDefaultAsync();
+
+        public Task<int> InsertLesson(Lesson lesson) => _connection.InsertAsync(lesson);
+
+        public Task<int> UpdateLesson(Lesson lesson) => _connection.UpdateAsync(lesson);
+
+        public Task<int> DeleteLesson(Lesson lesson) => _connection.DeleteAsync(lesson);
+
+        // Absence CRUD operations
+        public async Task<List<Absence>> GetAbsences() => await _connection.Table<Absence>().ToListAsync();
+
+        public async Task<Absence> GetAbsenceById(int absenceId) =>
+            await _connection.Table<Absence>().Where(absence => absence.AbsenceID == absenceId).FirstOrDefaultAsync();
+
+        public Task<int> InsertAbsence(Absence absence) => _connection.InsertAsync(absence);
+
+        public Task<int> UpdateAbsence(Absence absence) => _connection.UpdateAsync(absence);
+
+        public Task<int> DeleteAbsence(Absence absence) => _connection.DeleteAsync(absence);
     }
 }
