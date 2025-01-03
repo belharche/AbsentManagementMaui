@@ -1,22 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\view\\addstudentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\addstudentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\view\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\view\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\view\\splashview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\splashview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\brahim\\desktop\\maui project\\absentmanagement\\testview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\view\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\viewmodel\\addstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:viewmodel\\addstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\database\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:database\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\testview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:testview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\model\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:model\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|c:\\users\\lenovo\\source\\repos\\absentmanagementmaui\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4989274-6459-463F-A6A5-CB17368DD416}|AbsentManagement.csproj|solutionrelative:view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,55 +118,311 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestView.xaml",
-              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\TestView.xaml",
-              "RelativeDocumentMoniker": "TestView.xaml",
-              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\TestView.xaml",
-              "RelativeToolTip": "TestView.xaml",
+              "DocumentIndex": 0,
+              "Title": "AddStudentView.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\AddStudentView.xaml",
+              "RelativeDocumentMoniker": "View\\AddStudentView.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\AddStudentView.xaml",
+              "RelativeToolTip": "View\\AddStudentView.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-01T00:04:39.472Z",
+              "WhenOpened": "2025-01-03T18:23:30.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SplashView.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\SplashView.xaml",
+              "RelativeDocumentMoniker": "View\\SplashView.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\SplashView.xaml",
+              "RelativeToolTip": "View\\SplashView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T18:23:21.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T23:57:40.702Z",
+              "WhenOpened": "2025-01-03T18:06:20.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwD8AAAARAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RegisterView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\RegisterView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\RegisterView.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\RegisterView.xaml.cs",
+              "RelativeToolTip": "View\\RegisterView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T22:07:08.01Z",
+              "WhenOpened": "2025-01-03T18:04:59.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\HomeView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\HomeView.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\HomeView.xaml.cs",
+              "RelativeToolTip": "View\\HomeView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T18:00:39.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddStudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\ViewModel\\AddStudentViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AddStudentViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\ViewModel\\AddStudentViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AddStudentViewModel.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T18:00:19.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\ViewModel\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\ViewModel\\HomeViewModel.cs",
+              "RelativeToolTip": "ViewModel\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T18:00:17.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DbService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\Database\\DbService.cs",
+              "RelativeDocumentMoniker": "Database\\DbService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\Database\\DbService.cs",
+              "RelativeToolTip": "Database\\DbService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:56:03.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\brahim\\Desktop\\Maui Project\\AbsentManagement\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
+              "Title": "RegisterView.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\RegisterView.xaml",
+              "RelativeDocumentMoniker": "View\\RegisterView.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\RegisterView.xaml",
+              "RelativeToolTip": "View\\RegisterView.xaml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-31T21:19:11.713Z",
+              "WhenOpened": "2025-01-03T17:14:41.753Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\HomeView.xaml",
+              "RelativeDocumentMoniker": "View\\HomeView.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\HomeView.xaml",
+              "RelativeToolTip": "View\\HomeView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T17:14:28.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T22:06:54.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-01T21:53:01.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T21:43:42.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-01T21:43:31.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T21:15:00.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-01T21:09:01.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "View\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\LoginView.xaml",
+              "RelativeToolTip": "View\\LoginView.xaml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-01T21:05:57.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "Model\\Student.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\Model\\Student.cs",
+              "RelativeToolTip": "Model\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:53:33.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\View\\LoginView.xaml.cs",
+              "RelativeToolTip": "View\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:37:00.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwFsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:36:45.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TestView.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\TestView.xaml",
+              "RelativeDocumentMoniker": "TestView.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\TestView.xaml",
+              "RelativeToolTip": "TestView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-01T20:34:28.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:34:20.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\Model\\Field.cs",
+              "RelativeDocumentMoniker": "Model\\Field.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\Model\\Field.cs",
+              "RelativeToolTip": "Model\\Field.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T19:34:20.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\AbsentManagementMaui\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T19:34:01.893Z"
             }
           ]
         }

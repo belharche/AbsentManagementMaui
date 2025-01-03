@@ -34,11 +34,14 @@ namespace AbsentManagement.ViewModel
         }
 
         public ICommand LoginCommand { get; }
+        public ICommand NavigateToRegistrationCommand { get; }
 
         public LoginViewModel(DbService dbService)
         {
             _dbService = dbService;
             LoginCommand = new Command(async () => await LoginHandler());
+            NavigateToRegistrationCommand = new Command(async () => await NavigateToRegistration());
+
         }
 
         private async Task LoginHandler()
@@ -75,12 +78,32 @@ namespace AbsentManagement.ViewModel
                     }
                 }
             }
-            catch (Exception _)
+            catch (Exception e)
             {
                 ErrorMessage = "An error occurred during login. Please try again.";
             }
         }
-
+        private async Task NavigateToRegistration()
+        {
+            try
+            {
+                if (Shell.Current != null)
+                {
+                    await Shell.Current.GoToAsync("RegistrationView");
+                }
+                else
+                {
+                    ErrorMessage = "Navigation service is not initialized";
+                    System.Diagnostics.Debug.WriteLine("Shell.Current is null");
+                }
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"Navigation error: {ex.Message}";
+                System.Diagnostics.Debug.WriteLine($"Navigation error: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Stack trace: {ex.StackTrace}");
+            }
+        }
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)

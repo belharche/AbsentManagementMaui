@@ -1,9 +1,14 @@
+using AbsentManagement.ViewModel;
+
 namespace AbsentManagement.View;
 
-public partial class RegisterView : ContentView
+public partial class RegisterView : ContentPage
 {
-	public RegisterView()
+	public RegisterView(RegisterViewModel registerViewModel)
 	{
 		InitializeComponent();
-	}
+		BindingContext = registerViewModel;
+
+	
+    }
 }

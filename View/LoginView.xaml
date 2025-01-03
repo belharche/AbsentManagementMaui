@@ -28,8 +28,12 @@
 
             <HorizontalStackLayout HorizontalOptions="Center">
                 <Label Text="If you don't have an account, click to register"
-                       TextColor="#1E88E5"
-                       TextDecorations="Underline"/>
+           TextColor="#1E88E5"
+           TextDecorations="Underline">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateToRegistrationCommand}"/>
+                    </Label.GestureRecognizers>
+                </Label>
             </HorizontalStackLayout>
         </VerticalStackLayout>
     </Grid>

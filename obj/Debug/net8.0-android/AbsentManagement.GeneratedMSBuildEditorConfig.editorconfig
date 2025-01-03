@@ -12,71 +12,71 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AbsentManagement
-build_property.ProjectDir = C:\Users\brahim\Desktop\Maui Project\AbsentManagement\
+build_property.ProjectDir = C:\Users\Lenovo\Source\Repos\AbsentManagementMaui\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/App.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/AppShell.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/MainPage.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/Resources/Styles/Colors.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/Resources/Styles/Styles.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/TestView.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/TestView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.TestView.xaml
 build_metadata.AdditionalFiles.TargetPath = TestView.xaml
 build_metadata.AdditionalFiles.RelativePath = TestView.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/AddStudentView.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/View/AddStudentView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.View.AddStudentView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\AddStudentView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AddStudentView.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/HomeView.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/View/HomeView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.View.HomeView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\HomeView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\HomeView.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/LoginView.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/View/LoginView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.View.LoginView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\LoginView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\LoginView.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/RegisterView.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/View/RegisterView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.View.RegisterView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\RegisterView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\RegisterView.xaml
 
-[C:/Users/brahim/Desktop/Maui Project/AbsentManagement/View/SplashView.xaml]
+[C:/Users/Lenovo/Source/Repos/AbsentManagementMaui/View/SplashView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AbsentManagement.View.SplashView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\SplashView.xaml

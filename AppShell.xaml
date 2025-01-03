@@ -1,33 +1,32 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Shell
     x:Class="AbsentManagement.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AbsentManagement"
-    Shell.FlyoutBehavior="Disabled"
-    Title="AbsentManagement">
+    xmlns:views="clr-namespace:AbsentManagement.View"
+    Shell.FlyoutBehavior="Disabled">
 
-    <!-- Main Page -->
-    <ShellContent
-        Title="Main Page"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
-    <!-- Home Page -->
-    <ShellContent
-        Title="Home Page"
-        ContentTemplate="{DataTemplate local:View.HomeView}"
-        Route="HomeView" />
-
-    <!-- Add Student Page -->
-    <ShellContent
-        Title="Add Student"
-        ContentTemplate="{DataTemplate local:View.AddStudentView}"
-        Route="AddStudentView" />
 
     <ShellContent
-        Title="Test"
-        ContentTemplate="{DataTemplate local:TestView}"
-        Route="TestView" />
+        Route="HomeView"
+        ContentTemplate="{DataTemplate views:HomeView}" />
 
+    <ShellContent
+        Route="LoginView"
+        ContentTemplate="{DataTemplate views:LoginView}" />
+    
+
+    <ShellContent 
+        Title="Registration"
+        ContentTemplate="{DataTemplate views:RegisterView}"
+        Route="RegistrationView" />
+    <ShellContent
+    Route="RegistrationView"
+    ContentTemplate="{DataTemplate views:RegisterView}" />
+    
+    <ShellContent
+    Route="AddStudentView"
+    ContentTemplate="{DataTemplate views:AddStudentView}" />
+
+    <!-- Other routes -->
 </Shell>

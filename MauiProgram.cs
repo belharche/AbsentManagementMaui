@@ -19,11 +19,16 @@ namespace AbsentManagement
                 });
 
             builder.Services.AddSingleton<DbService>();
-            builder.Services.AddTransient<LoginViewModel>();
-            builder.Services.AddTransient<LoginView>();
+           
             builder.Services.AddTransient<SplashView>();
             builder.Services.AddTransient<RegisterViewModel>();
             builder.Services.AddTransient<RegisterView>();
+            builder.Services.AddSingleton<AppShell>();
+            builder.Services.AddTransient<LoginViewModel>();
+            builder.Services.AddTransient<LoginView>();
+            builder.Services.AddTransient<HomeView>();
+            builder.Services.AddTransient<HomeViewModel>();
+
 
             var app = builder.Build();
 
