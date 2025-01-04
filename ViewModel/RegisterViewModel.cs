@@ -51,11 +51,14 @@ namespace AbsentManagement.ViewModel
         }
 
         public ICommand RegisterCommand { get; }
+        public ICommand NavigateToLoginCommand { get; }
+
 
         public RegisterViewModel(DbService dbService)
         {
             _dbService = dbService;
             RegisterCommand = new Command(async () => await RegisterHandler());
+            NavigateToLoginCommand = new Command(async () => await NavigateToLogin());
         }
 
 
@@ -86,10 +89,35 @@ namespace AbsentManagement.ViewModel
                 };
 
                 await _dbService.InsertUser(newUser);
+                // Navigate to Login Screen
+                await Shell.Current.GoToAsync("LoginView");
             }
             catch (Exception _)
             {
                 ErrorMessage = "An error occurred during Registration. Please try again.";
+            }
+        }
+
+
+        private async Task NavigateToLogin()
+        {
+            try
+            {
+                if (Shell.Current != null)
+                {
+                    await Shell.Current.GoToAsync("//LoginView");
+                }
+                else
+                {
+                    ErrorMessage = "Navigation service is not initialized";
+                    System.Diagnostics.Debug.WriteLine("Shell.Current is null");
+                }
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"Navigation error: {ex.Message}";
+                System.Diagnostics.Debug.WriteLine($"Navigation error: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Stack trace: {ex.StackTrace}");
             }
         }
 

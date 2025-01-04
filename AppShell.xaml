@@ -8,8 +8,6 @@
     Shell.FlyoutBehavior="Disabled"
     Shell.NavBarIsVisible="true">
 
-
-    
     <!-- Authentication Pages (Not in tabs) -->
     <ShellContent
         Route="LoginView"
@@ -39,24 +37,21 @@
                  ContentTemplate="{DataTemplate views:AddStudentView}" 
                 />
         </Tab>
-        
-         <Tab Title="New lesson" Icon="images/newlesson_icon.png">
-     <ShellContent
-   Title="New Lesson"
-   Route="NewLessonView"
-   ContentTemplate="{DataTemplate views:NewLessonView}" />
- </Tab>
+
+        <Tab Title="New lesson" Icon="images/newlesson_icon.png">
+            <ShellContent
+               Title="New Lesson"
+               Route="NewLessonView"
+               ContentTemplate="{DataTemplate views:NewLessonView}" />
+        </Tab>
 
         <Tab Title="Search" Icon="images/search_icon.png">
             <ShellContent
-               
-          Title="Search"
-          Route="SearchView"
-          ContentTemplate="{DataTemplate views:SearchView}" />
+              Title="Search"
+              Route="SearchView"
+              ContentTemplate="{DataTemplate views:SearchView}" />
         </Tab>
 
-
-       
     </TabBar>
 
    

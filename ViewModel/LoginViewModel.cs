@@ -82,6 +82,7 @@ namespace AbsentManagement.ViewModel
                 ErrorMessage = "An error occurred during login. Please try again.";
             }
         }
+
         private async Task NavigateToRegistration()
         {
             try
@@ -103,6 +104,8 @@ namespace AbsentManagement.ViewModel
                 System.Diagnostics.Debug.WriteLine($"Stack trace: {ex.StackTrace}");
             }
         }
+
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)

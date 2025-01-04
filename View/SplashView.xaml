@@ -4,11 +4,32 @@
              x:Class="AbsentManagement.View.SplashView"
              Title="SplashView">
 
+    <!-- Gradient background -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#0a3d62" Offset="0.0" />
+            <GradientStop Color="#1e90ff" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
     <Grid>
-        <Image Source="splash_bg.png"
-               HorizontalOptions="Center"
+        <!-- Logo image -->
+        <Image Source="logo_placeholder.png" 
+               HorizontalOptions="Center" 
                VerticalOptions="Center"
-               Aspect="AspectFill"/>
+               HeightRequest="150" 
+               WidthRequest="150" 
+               Aspect="AspectFit"/>
+
+        <!-- Loading indicator -->
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="10">
+            <ActivityIndicator IsRunning="True" Color="White" Opacity="0.8" />
+            <Label Text="Loading ..." 
+                   TextColor="White" 
+                   Opacity="0.8" 
+                   HorizontalOptions="Center" 
+                   FontAttributes="Bold" />
+        </StackLayout>
     </Grid>
 
 </ContentPage>
