@@ -1,1 +1,1 @@
-C:\Users\brahim\Desktop\AbsentManagementMaui\AbsentManagement.csproj;x64
+C:\Users\Lenovo\Desktop\absent management\AbsentManagementMaui\AbsentManagement.csproj;x64

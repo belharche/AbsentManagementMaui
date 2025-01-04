@@ -4,5 +4,43 @@
         <name>AbsentManagement</name>
     </assembly>
     <members>
+        <member name="T:AbsentManagement.ViewModel.SearchViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AbsentManagement.ViewModel.SearchViewModel.Students">
+            <inheritdoc cref="F:AbsentManagement.ViewModel.SearchViewModel.students"/>
+        </member>
+        <member name="F:AbsentManagement.ViewModel.SearchViewModel.searchCommand">
+            <summary>The backing field for <see cref="P:AbsentManagement.ViewModel.SearchViewModel.SearchCommand"/>.</summary>
+        </member>
+        <member name="P:AbsentManagement.ViewModel.SearchViewModel.SearchCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AbsentManagement.ViewModel.SearchViewModel.Search(System.String)"/>.</summary>
+        </member>
+        <member name="F:AbsentManagement.ViewModel.SearchViewModel.viewAbsencesCommand">
+            <summary>The backing field for <see cref="P:AbsentManagement.ViewModel.SearchViewModel.ViewAbsencesCommand"/>.</summary>
+        </member>
+        <member name="P:AbsentManagement.ViewModel.SearchViewModel.ViewAbsencesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:AbsentManagement.ViewModel.SearchViewModel.ViewAbsences(AbsentManagement.Model.Student)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Students">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Students" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Students">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Students" generated properties.</summary>
+        </member>
     </members>
 </doc>

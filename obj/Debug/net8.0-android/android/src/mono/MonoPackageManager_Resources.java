@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "AbsentManagement.dll" comes first in this list. */
 		"AbsentManagement.dll",
+		"CommunityToolkit.Mvvm.dll",
 		"Firebase.Auth.dll",
 		"Firebase.Database.dll",
 		"GoogleGson.dll",

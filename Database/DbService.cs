@@ -39,6 +39,31 @@ namespace AbsentManagement.Database
                             Password = "admin123"
                         });
                     }
+
+                    await InsertField(new Field(1, "Industriel 1"));
+                    await InsertField(new Field(2, "Industriel 2"));
+                    await InsertField(new Field(3, "Industriel 3"));
+                    await InsertField(new Field(4, "CP 1"));
+                    await InsertField(new Field(5, "CP 2"));
+                    await InsertField(new Field(6, "Informatique 1"));
+                    await InsertField(new Field(7, "Informatique 2"));
+                    await InsertField(new Field(8, "Informatique 3"));
+                    await InsertField(new Field(9, "AI 1"));
+                    await InsertField(new Field(10, "AI 2"));
+                    await InsertField(new Field(11, "AI 3"));
+
+                    await InsertStudent(new Student
+                    {
+                        Id="d1300",
+                        Firstname="simo",
+                        Lastname= "fadli",
+                        Email="salam@gmail.com",
+                        Phone="0605543232",
+                        FieldId=1
+
+
+                    });
+
                 }
                 catch (Exception ex)
                 {
