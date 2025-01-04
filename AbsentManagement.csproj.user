@@ -14,6 +14,9 @@
     <MauiXaml Update="TestView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\AbsenceView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\AddStudentView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -23,7 +26,13 @@
     <MauiXaml Update="View\LoginView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\NewLessonView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\RegisterView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\SearchView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="View\SplashView.xaml">

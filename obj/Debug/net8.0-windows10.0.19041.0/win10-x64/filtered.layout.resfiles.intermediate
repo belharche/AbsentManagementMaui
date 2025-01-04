@@ -1,3 +1,6 @@
+OpenSans-Regular.ttf
+OpenSans-Semibold.ttf
+absence_icon.scale-100.png
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -49,6 +52,15 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+home_icon.scale-100.png
 login_bg.scale-100.png
+newlesson_icon.scale-100.png
+search_icon.scale-100.png
 splash_bg.scale-100.png
+student_icon.scale-100.png
+splashSplashScreen.scale-100.png
+splashSplashScreen.scale-125.png
+splashSplashScreen.scale-150.png
+splashSplashScreen.scale-200.png
+splashSplashScreen.scale-400.png
 AboutAssets.txt

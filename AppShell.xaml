@@ -1,32 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <Shell
     x:Class="AbsentManagement.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AbsentManagement"
     xmlns:views="clr-namespace:AbsentManagement.View"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="true">
 
 
-    <ShellContent
-        Route="HomeView"
-        ContentTemplate="{DataTemplate views:HomeView}" />
-
+    
+    <!-- Authentication Pages (Not in tabs) -->
     <ShellContent
         Route="LoginView"
+        Shell.NavBarIsVisible="false"
         ContentTemplate="{DataTemplate views:LoginView}" />
-    
 
     <ShellContent 
-        Title="Registration"
-        ContentTemplate="{DataTemplate views:RegisterView}"
-        Route="RegistrationView" />
-    <ShellContent
-    Route="RegistrationView"
-    ContentTemplate="{DataTemplate views:RegisterView}" />
-    
-    <ShellContent
-    Route="AddStudentView"
-    ContentTemplate="{DataTemplate views:AddStudentView}" />
+        Route="RegistrationView"
+        Shell.NavBarIsVisible="false"
+        ContentTemplate="{DataTemplate views:RegisterView}" />
 
-    <!-- Other routes -->
+    <!-- Bottom Tab Navigation -->
+    <TabBar>
+      
+       
+        <Tab Title="Absence" Icon="images/absence_icon.png">
+            <ShellContent
+         Title="Absence"
+         Route="AbsenceView"
+         ContentTemplate="{DataTemplate views:AbsenceView}" />
+        </Tab>
+
+        <Tab Title="Add Student" Icon="images/student_icon.png">
+            <ShellContent
+                 Title="Add student"
+                 Route="AddStudentView"
+                 ContentTemplate="{DataTemplate views:AddStudentView}" 
+                />
+        </Tab>
+        
+         <Tab Title="New lesson" Icon="images/newlesson_icon.png">
+     <ShellContent
+   Title="New Lesson"
+   Route="NewLessonView"
+   ContentTemplate="{DataTemplate views:NewLessonView}" />
+ </Tab>
+
+        <Tab Title="Search" Icon="images/search_icon.png">
+            <ShellContent
+               
+          Title="Search"
+          Route="SearchView"
+          ContentTemplate="{DataTemplate views:SearchView}" />
+        </Tab>
+
+
+       
+    </TabBar>
+
+   
 </Shell>

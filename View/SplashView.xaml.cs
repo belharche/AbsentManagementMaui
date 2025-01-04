@@ -5,5 +5,6 @@ public partial class SplashView : ContentPage
     public SplashView()
     {
         InitializeComponent();
+
     }
 }

@@ -69,8 +69,7 @@ namespace AbsentManagement.ViewModel
                 {
                     try
                     {
-                        // This part of navigation contains an error (TO BE FIXED)
-                        await Shell.Current.GoToAsync("HomeView");
+                        await Shell.Current.GoToAsync("///AbsenceView");
                     }
                     catch (Exception ex)
                     {

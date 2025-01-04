@@ -28,7 +28,16 @@ namespace AbsentManagement
             builder.Services.AddTransient<LoginView>();
             builder.Services.AddTransient<HomeView>();
             builder.Services.AddTransient<HomeViewModel>();
+            builder.Services.AddTransient<AddStudentViewModel>();
+            builder.Services.AddTransient<AddStudentView>();
 
+            builder.Services.AddTransient<AbsenceView>();
+            builder.Services.AddTransient<AbsenceViewModel>();
+            builder.Services.AddTransient<SearchView>();
+            builder.Services.AddTransient<SearchViewModel>();
+
+            builder.Services.AddTransient<NewLessonView>();
+            builder.Services.AddTransient<NewLessonViewModel>();
 
             var app = builder.Build();
 
