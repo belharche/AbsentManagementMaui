@@ -4,8 +4,8 @@ public class Absence
 {
     [PrimaryKey, AutoIncrement]
     public int AbsenceID { get; set; }
-    public int StudentID { get; set; }
-    public int LessonID { get; set; }
-    public DateTime Date { get; set; }  // Date the absence was recorded
+    public string StudentID { get; set; }
+    public string LessonName { get; set; }
+    public DateTime Date { get; set; } 
     public bool IsJustified { get; set; }
 }

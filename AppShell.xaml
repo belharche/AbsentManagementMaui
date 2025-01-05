@@ -13,6 +13,10 @@
         Route="LoginView"
         Shell.NavBarIsVisible="false"
         ContentTemplate="{DataTemplate views:LoginView}" />
+    <ShellContent
+      Route="StudentAbsencesView"
+      Shell.NavBarIsVisible="false"
+      ContentTemplate="{DataTemplate views:StudentAbsencesView}" />
 
     <ShellContent 
         Route="RegistrationView"

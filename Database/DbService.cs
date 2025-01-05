@@ -52,6 +52,8 @@ namespace AbsentManagement.Database
                     await InsertField(new Field(10, "AI 2"));
                     await InsertField(new Field(11, "AI 3"));
 
+                   
+
                     await InsertStudent(new Student
                     {
                         Id="d1300",
@@ -63,6 +65,8 @@ namespace AbsentManagement.Database
 
 
                     });
+                   
+
 
                 }
                 catch (Exception ex)
@@ -139,5 +143,7 @@ namespace AbsentManagement.Database
         public Task<int> UpdateAbsence(Absence absence) => _connection.UpdateAsync(absence);
 
         public Task<int> DeleteAbsence(Absence absence) => _connection.DeleteAsync(absence);
+        public async Task<List<Absence>> GetAbsenceByUserId(string studentid) =>
+            await _connection.Table<Absence>().Where(absence => absence.StudentID == studentid).ToListAsync();
     }
 }

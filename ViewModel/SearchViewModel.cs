@@ -48,8 +48,8 @@ namespace AbsentManagement.ViewModel
 
             var filteredStudents = _allStudents.Where(s =>
                 s.Firstname.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
-                s.Lastname.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
-                s.FieldId.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase));
+                s.Lastname.Contains(searchText, StringComparison.OrdinalIgnoreCase));
+              
 
             Students = new ObservableCollection<Student>(filteredStudents);
         }
@@ -57,12 +57,14 @@ namespace AbsentManagement.ViewModel
         [RelayCommand]
         private async Task ViewAbsences(Student student)
         {
+            System.Diagnostics.Debug.WriteLine("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"+student.Id);
+
             if (student == null)
                 return;
 
             var parameters = new Dictionary<string, object>
             {
-                { "StudentId", student.Id }
+                { "Student", student }
             };
 
             await Shell.Current.GoToAsync("StudentAbsencesView", parameters);

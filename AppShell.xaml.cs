@@ -13,6 +13,7 @@ public partial class AppShell : Shell
         Routing.RegisterRoute("AddStudentView", typeof(AddStudentView));
         Routing.RegisterRoute("SearchView", typeof(SearchView));
         Routing.RegisterRoute("NewLessonView", typeof(NewLessonView));
+        Routing.RegisterRoute("StudentAbsencesView", typeof(StudentAbsencesView));
         GoToAsync("//LoginView");
        
     }
